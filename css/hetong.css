@@ -1,0 +1,566 @@
+
+        html {
+            font-size: 14px;
+        }
+        body{
+            background-color: #f5f5f5;
+        }
+/* 最小的logo */
+.navbar .logo{
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    background: url(../images/yht-logo-195X80.png) no-repeat;
+    background-size: 100% auto;
+}
+.contain-header>i{
+    font-size: 0.8rem;
+}
+#navbar-body ul.nav{
+    margin-top: 41px;
+}
+.swiper-slide img {
+    width: 275px;
+    height: 206px;
+    margin-left: 200px;
+}
+footer .col-lg-4 p{
+    text-align: center;
+}
+        @media screen and (min-width:540px) {
+            .navbar .logo{
+                display: inline-block;
+                width: 122px;
+                height: 50px;
+                background: url(../images/yht-logo-195X80.png) no-repeat;
+                background-size: 100% auto;
+            }
+            .contain-header>i{
+                font-size: 1rem;
+            }
+            .con3 .row .col-lg-2{
+                border: 0;
+            }
+            #navbar-body ul.nav{
+                margin-top: 45px;
+            }
+            .swiper-slide img {
+                width: 275px;
+                height: 206px;
+                margin-left: 200px;
+            }
+            footer .col-lg-4 p{
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width:760px) {
+            html {
+                font-size: 18px;
+            }
+            .navbar .logo{
+                display: inline-block;
+                width: 152px;
+                height: 60px;
+                background: url(../images/yue-sprit001.png) no-repeat -202px 0px;
+            }
+            .contain-header>i{
+                font-size: 1.2rem;
+            }
+            .con3 .row .col-lg-2{
+                border: 0;
+            }
+            #navbar-body ul.nav{
+                margin-top: 0px;
+            }
+            .swiper-slide img{
+                width: 100%;
+                height: 206px;
+                margin-left: 0;
+            }
+            footer .col-lg-4 p{
+                text-align: right;
+            }
+        }
+
+        @media screen and (min-width:1200px) {
+            html {
+                font-size: 20px;
+            }
+            .navbar .logo{
+                display: inline-block;
+                width: 195px;
+                height: 80px;   
+                background:url(../images/yue-sprit001.png)  no-repeat 0 0;
+            }
+            .contain-header>i{
+                font-size: 1.4rem;
+            }
+            .con3 .row .col-lg-2{
+                border: 1px;
+            }
+            #navbar-body ul.nav{
+                margin-top: 0px;
+            }
+            .swiper-slide img{
+                width: 100%;
+                height: 206px;
+                margin-left: 0;
+            }
+            footer .col-lg-4 p{
+                text-align: right;
+            }
+        }
+        @media screen and (max-width: 990px){
+            .con3 .row .col-lg-2{
+                border: 0;
+            }
+        }
+nav.navbar{
+    border-radius: 0;
+    border:0;
+    padding: 1.3rem 0 0 3rem;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+/* @media screen and (min-width:1200px) {
+    .navbar .logo{
+        display: inline-block;
+        width: 152px;
+        height: 60px;
+        background: url(../images/yue-sprit001.png) no-repeat -202px 0px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:760px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:540px) {
+    html {
+        font-size: 16px;
+    }
+} */
+
+.contain-header>i{
+    width: 30%;
+    position: absolute;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #35c1ec;
+    overflow: hidden;
+
+}
+.navbar-nav>li{
+    font-size: 0.8rem;
+}
+.top{
+   position: absolute;
+   right: 0;
+   top: 1.9rem;  
+}
+.bb{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.search{
+    width: 100%;
+    height: 150px;
+    background: url(../images/s_bg.jpg);
+    padding: 50px 20% 50px 20%;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+}
+.search .sou{
+    position: relative; 
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 108px;
+}
+.search .sou input{
+    border: 0;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    height: 53px;
+    padding-left: 9px;
+}
+.navbar-toggle{
+    z-index: 999;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background: #32c1ed;
+    color: #fff;
+    border-radius: 10px;
+}
+.gang{
+    position: relative;
+}
+.gang::after{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: rgb(20, 153, 214);
+}
+.navbar-right{
+    margin-right: 10px;
+}
+#navbar-body{
+    width: 100%;
+    position: absolute;
+    left: 15px;
+    z-index: 99;
+}
+#navbar-body ul.nav{
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border:0;
+}
+.kuang{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 112px;
+    height: 53px;
+    background: #fdd26d url(../images/yue-sprit001.png) 50% -126px no-repeat;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.con h2,.con2 h2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.col-lg-3{
+    padding: 0 5px 0 5px;
+}
+.con .col-lg-3 dl{
+    width: 100%;
+    background-color: #fff;
+}
+.one{
+    background: #e8b875 url(../images/yue-sprit004.png) no-repeat 35px -47px;
+}
+.two{
+    background: #baa1e2 url(../images/yue-sprit004.png) no-repeat 25px -260px;
+}
+.three{
+    background: #6581c3 url(../images/yue-sprit004.png) no-repeat 35px -172px;
+}
+.four{
+    background: #fad716 url(../images/yue-sprit004.png) no-repeat 35px -129px;
+}
+.five{
+    background: #8ea8f8 url(../images/yue-sprit004.png) no-repeat 35px -208px; 
+}
+.six{
+    background: #fcbfdb url(../images/yue-sprit004.png) no-repeat 35px -85px;
+}
+.seven{
+    background: #f97b39 url(../images/yue-sprit004.png) no-repeat 35px -315px;
+}
+.eight{
+    background: #97cb26 url(../images/yue-sprit004.png) no-repeat 35px -365px;
+}
+.con .col-lg-3 dl dt{
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.con .col-lg-3 dl dd{
+    height: 38px;
+    padding-left: 10px;
+    border-bottom: 1px dashed #eaeaea;
+    line-height: 41px;
+    font-size: 15px;
+}
+.con .col-lg-3 dl dd span{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: "新宋体","宋体";
+    text-align: center;
+}
+.con .col-lg-3 dl dd:nth-last-child(1),.con .col-lg-3 dl dd:nth-last-child(2){
+    border: 0;
+}
+.con2{
+    padding-top: 40px;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+.bor{
+    border: 1px solid #ddd;
+}
+.row a{
+    display: block;
+    width: 100%;
+    padding: 1px;
+}
+.con2 .row p{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    line-height: 55px;
+}
+.row a span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(155, 138, 138);
+}
+a:hover{
+    text-decoration: none;
+}
+.row span i{
+    font-style: normal;
+    color: red;
+}
+.borr{
+    font-size: 32px;
+    font-weight: 100;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 2px;
+    text-align: center;
+    border: 1px solid;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 20px;
+    border-radius: 50%;
+}
+.col-lg-4:nth-child(1) .tu{
+    width: 100%;
+    height: 170px;
+    background: #f97b39;
+}
+.col-lg-4:nth-child(2) .tu{
+    width: 100%;
+    height: 170px;
+    background: #97cb26
+}
+.col-lg-4:nth-child(3) .tu{
+    width: 100%;
+    height: 170px;
+    background: #fad716;
+}
+.tu>span:nth-child(2){
+    position: absolute;
+    bottom: 20px;
+}
+.tu>span:nth-child(3){
+    position: absolute;
+    bottom: 40px;
+}
+.con3 .row .col-lg-2{
+    height: 83px;
+    padding: 0 2rem 0 2rem;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+}
+.con3 .row .col-lg-2 span{
+    width: 125px;
+    height: 78px;
+    background: url(../images/yue-sprit0052.png) no-repeat;
+    float: left;
+}    
+.con3 .row .col-lg-2:nth-child(3) span{
+    width: 100px;
+    background-position: -3px -85px;
+}   
+.con3 .row .col-lg-2:nth-child(4) span{    width: 113px;
+    background-position: 6px -168px;
+} 
+.con3 .row .col-lg-2:nth-child(5) span{
+    width: 120px;
+    background-position: -103px -168px;
+} 
+.con3 .row .col-lg-2:nth-child(6) span{
+    width: 100px;
+    background-position: -115px -83px;
+}
+.con3 .row .col-lg-2:nth-child(1) span{
+    background-position: -132px 0;
+}
+
+.con3 .row  .col-lg-2:nth-last-child(1){
+    border: 0;
+}
+.con3{
+    width: 100%;
+    background-color: #ededed;
+    padding: 2rem 0 2rem 0;
+}
+/* .swiper-slide img{
+    width: 100%;
+    height: 206px;
+} */
+.con4 .col-lg-3:nth-child(2) dl,.con4 .col-lg-3:nth-child(3) dl,.con4 .col-lg-3:nth-child(4) dl{
+    border-right: 2px solid #ddd;
+    background-color: #fff;
+}
+.swiper-pagination span{
+    width: 20px;
+    height: 6px;
+    background-color: #f1a179;
+    border: 1px solid #f1a179;
+    border-radius: 0;
+    border: 1px solid white;
+}
+.con4 .col-lg-3{
+    padding: 0;
+}
+.con4 .col-lg-3:nth-last-child(2) dl{
+    border-left: 0;
+    border-right: 1px dashed #ddd;
+}
+.con4 .col-lg-3:nth-last-child(1) dl{
+    border: 0;
+}
+.con4 dl dt,.con4 dl dd{
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+    padding-left: 8px;
+    overflow: hidden;
+}
+.con4 dd:hover{
+    border-right: 3px solid #97cb26;
+    background: #fafafa;
+    cursor: pointer;
+}
+.con4 dl dt h2{
+    width: 100%;
+    line-height: 72px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #259;
+    margin: 0;
+}
+.con4 dl dd{
+    
+    border-bottom: 1px solid #e8e8e8;
+}
+.con4{
+    margin-top: 50px;
+}
+.qiye{
+    width: 100%;
+    padding: 0 0 4.9rem 0;
+    background: url(../images/ent-bg.jpg);
+}
+.con5{
+    padding-top: 44px;
+}
+.con5 h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+.con5 h2>span{color: rgb(94, 94, 233);}
+.qiye .col-lg-2{
+    /* padding: 0; */
+    border: 1px solid #bababa;
+    background-color: #fff;
+    overflow: hidden;
+}
+.qiye .col-lg-2 img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s;
+}
+.qiye .col-lg-2:hover img{
+    transform: scale(1.1)
+}
+.bai{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.con6{
+    padding-top: 50px;
+}
+.con6 h2{
+    text-align: center;
+    color: rgb(102, 92, 92);
+    font-size: 1.3rem;
+}
+.con6 .col-lg-2{
+    margin-top: 10px;
+}
+.con6 .col-lg-2 img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 276px;
+    padding-top: 30px;
+    background-color: #efefef;
+    color:#7a7a7a;
+}
+footer dl{
+    float: left;
+    margin-right: 110px;
+}
+footer dl dt,footer dl dd{
+    line-height: 25px;
+}
+.wei{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #3890ff url(../images/ghjihgfd.png) no-repeat 9px 10px;
+    border-radius: 100%;
+    z-index: 999;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.dingbu{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #3890ff url(../images/dfghjhgfrs.png) no-repeat 9px 10px;
+    border-radius: 100%;
+    z-index: 999;
+    bottom: 105px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+.wei img{
+    position: absolute;
+    width: 100px;
+    left: -100px;
+    display: none;
+}
+.wei:hover img{
+    display: block;
+}
+.con6 img:hover{
+    transition: all 0.2s;
+    transform: scale(1.1)
+}
